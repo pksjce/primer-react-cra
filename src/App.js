@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import {IconButton} from '@primer/react/drafts'
+import {SearchIcon} from '@primer/octicons-react'
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
         >
           Learn React
         </a>
+        <IconButton icon={SearchIcon}>Icon</IconButton>
       </header>
     </div>
   );
